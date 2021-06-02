@@ -11,7 +11,7 @@ export interface Game {
     parent_platforms: Array<ParentPlatform>;
     publishers: Array<Publishers>;
     ratings: Array<Rating>;
-    screenshot: Array<Screenshots>;
+    short_screenshots: Array<Screenshots>;
     trailers: Array<Trailers>;
 }
 
